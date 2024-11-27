@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign Up</title>
+</head>
+<body class="bg-main " id="signupPage">
+     <main class="d-flex justify-content-center align-items-center vh-100 " id="signup">
+          <div class="content w-50 mx-auto text-center bg-main p-5">
+               <h1>Smart Login System
+            </h1>
+            <div class="container">
+             <div class="mt-4 mb-3 nameDiv">
+                <input type="text" placeholder="Enter Your name" class="form-control border text-white border-white bg-transparent" name="username" id="signUpuserName">
+                   <p class="text-danger d-none">Invalid userName (it must start with character and length is at least 3 characters)</p>
+               </div>
+             <div class="  mb-3 emailDiv">
+                <input type="email" placeholder="Enter Your Email"  class="  form-control  text-white border border-white bg-transparent" name="email" id="signupEmail">
+                <p class="text-danger d-none">Invalid Email (It must contain @ and .)</p>
+
+               </div>
+             <div class="  mb-3 passwordDiv">
+                <input type="password" placeholder="Enter password" class="form-control   text-white border border-white bg-transparent" name="password" id="signupPassword">
+                <p class="text-danger d-none">Invalid Password (it must contain at least 1 capital letter,1 small letter and special character and lts minimum length is 8)</p>
+
+               </div>
+             <div class="  mb-3">
+                <button class="btn btn-outline-info d-block w-100 " id="signupBtn">Sign Up</button>
+             </div>
+             <div class="  mb-3 text-white">
+                You have an account? <a href="index.html" class="text-reset ">Sign in</a>
+             </div>
+            </div>
+          </div>
+        </main>
+        
+        <script src="javascript/bootstrap.bundle.js"></script>
+        <script src="javascript/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

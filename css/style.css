@@ -1,0 +1,37 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+.bg-main {
+  background-color: rgb(36, 53, 63);
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input{
+  color: white;
+}
+nav {
+}
+nav .navbar-toggler:focus {
+  box-shadow: 0 0 0 1px white;
+}
+h1 {
+  color: rgb(23, 162, 184);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+#signup ::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: rgb(23, 162, 184) !important;
+}
+#signup button:hover {
+  color: white;
+}
+
+#signup a {
+  text-decoration: none;
+}
+#signup a:hover {
+  text-decoration: underline;
+}
